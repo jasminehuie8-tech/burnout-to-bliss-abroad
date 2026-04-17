@@ -1,0 +1,65 @@
+backend:
+  name: github
+  repo: jasminehuie8-tech/burnout-to-bliss-abroad
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Home Page"
+        name: "home"
+        file: "index.html"
+        fields:
+          - label: "Hero Headline"
+            name: "hero_headline"
+            widget: "string"
+            hint: "Main headline in the hero section"
+          - label: "Hero Subheadline"
+            name: "hero_subheadline"
+            widget: "text"
+            hint: "Supporting text below the main headline"
+          - label: "Done-For-You Price"
+            name: "dfy_price"
+            widget: "string"
+            hint: "Current price for the Done-For-You package (e.g. $3,997)"
+
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "blog"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+      - label: "Featured Image"
+        name: "thumbnail"
+        widget: "image"
+        required: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - label: "Contact Info"
+        name: "contact"
+        file: "contact.html"
+        fields:
+          - label: "Contact Email"
+            name: "contact_email"
+            widget: "string"
+          - label: "30-Min Call Link"
+            name: "clarity_call_link"
+            widget: "string"
+          - label: "Done-For-You Call Link"
+            name: "dfy_call_link"
+            widget: "string"

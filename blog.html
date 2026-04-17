@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Real talk about living in the Dominican Republic as a healthcare professional. Cost of living, sabbaticals, relocation tips, and life abroad from a 30-year RN."/>
+  <title>Blog | Burnout to Bliss Abroad</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;1,700&family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" role="navigation">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__logo">
+      <img src="images/logo.png" alt="Burnout to Bliss Abroad" style="height:52px;width:auto;" onerror="this.style.display='none';this.nextElementSibling.style.display='block'"/>
+      <span style="display:none;font-family:'Playfair Display',serif;font-size:1rem;color:#C9A84C;font-weight:700;line-height:1.2;letter-spacing:.03em;">BURNOUT TO BLISS<br><span style="font-size:.75rem;letter-spacing:.18em;font-weight:400;color:#1A1A1A;">ABROAD</span></span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="about.html">My Story</a></li>
+      <li><a href="work-with-me.html">Work With Me</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="contact.html#book" class="btn btn-primary btn-sm nav__cta">Book a Discovery Call</a>
+    <button class="nav__hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="nav__mobile" id="mobileNav">
+  <ul>
+    <li><a href="about.html">My Story</a></li>
+    <li><a href="work-with-me.html">Work With Me</a></li>
+    <li><a href="blog.html">Blog</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="contact.html#book" class="btn btn-primary btn-full mt-2">Book a Discovery Call</a></li>
+  </ul>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a><span>›</span><span style="color:var(--white);">Blog</span></div>
+    <span class="page-hero__label">Real Talk from the DR</span>
+    <h1 class="page-hero__title">Life Abroad, Honestly.</h1>
+    <p class="page-hero__sub">No travel-blog fluff. Real insights for burned-out healthcare workers thinking about a different life.</p>
+  </div>
+</section>
+
+<!-- CATEGORY FILTER -->
+<section style="background:var(--bg-dark);padding:20px 0;border-bottom:1px solid var(--border);">
+  <div class="container">
+    <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
+      <span style="font-size:.85rem;font-weight:600;color:var(--text-light);margin-right:8px;">Browse:</span>
+      <a href="blog.html" style="padding:6px 16px;border-radius:50px;font-size:.85rem;font-weight:600;
+        background:#1A1A1A;color:var(--white);text-decoration:none;">All Posts</a>
+      <a href="#" style="padding:6px 16px;border-radius:50px;font-size:.85rem;font-weight:600;
+        background:var(--white);color:var(--text);border:1.5px solid var(--border);text-decoration:none;
+        transition:all .2s;" onmouseenter="this.style.borderColor='var(--primary)'" onmouseleave="this.style.borderColor='var(--border)'">Cost of Living</a>
+      <a href="#" style="padding:6px 16px;border-radius:50px;font-size:.85rem;font-weight:600;
+        background:var(--white);color:var(--text);border:1.5px solid var(--border);text-decoration:none;
+        transition:all .2s;" onmouseenter="this.style.borderColor='var(--primary)'" onmouseleave="this.style.borderColor='var(--border)'">Sabbaticals</a>
+      <a href="#" style="padding:6px 16px;border-radius:50px;font-size:.85rem;font-weight:600;
+        background:var(--white);color:var(--text);border:1.5px solid var(--border);text-decoration:none;
+        transition:all .2s;" onmouseenter="this.style.borderColor='var(--primary)'" onmouseleave="this.style.borderColor='var(--border)'">Relocation</a>
+      <a href="#" style="padding:6px 16px;border-radius:50px;font-size:.85rem;font-weight:600;
+        background:var(--white);color:var(--text);border:1.5px solid var(--border);text-decoration:none;
+        transition:all .2s;" onmouseenter="this.style.borderColor='var(--primary)'" onmouseleave="this.style.borderColor='var(--border)'">DR Life</a>
+      <a href="#" style="padding:6px 16px;border-radius:50px;font-size:.85rem;font-weight:600;
+        background:var(--white);color:var(--text);border:1.5px solid var(--border);text-decoration:none;
+        transition:all .2s;" onmouseenter="this.style.borderColor='var(--primary)'" onmouseleave="this.style.borderColor='var(--border)'">Nurse Burnout</a>
+      <a href="#" style="padding:6px 16px;border-radius:50px;font-size:.85rem;font-weight:600;
+        background:var(--white);color:var(--text);border:1.5px solid var(--border);text-decoration:none;
+        transition:all .2s;" onmouseenter="this.style.borderColor='var(--primary)'" onmouseleave="this.style.borderColor='var(--border)'">Retirement Abroad</a>
+    </div>
+  </div>
+</section>
+
+<!-- BLOG GRID -->
+<section class="section">
+  <div class="container">
+    <div class="blog-grid">
+
+      <!-- Post 1 — Featured -->
+      <article class="blog-card fade-in" style="grid-column:1/3;" aria-labelledby="post1-title">
+        <div style="display:grid;grid-template-columns:1.3fr 1fr;">
+          <div class="blog-card__img" style="aspect-ratio:auto;min-height:280px;">🌴</div>
+          <div class="blog-card__body" style="padding:32px;">
+            <span class="blog-card__cat">Cost of Living</span>
+            <h2 id="post1-title" style="font-size:1.4rem;margin-bottom:10px;line-height:1.3;">
+              <a href="blog/how-much-does-it-really-cost-to-live-in-the-dominican-republic.html" class="blog-card__title" style="font-size:1.4rem;">
+                How Much Does It Really Cost to Live in the Dominican Republic? A Nurse's Honest Breakdown
+              </a>
+            </h2>
+            <p class="blog-card__excerpt">
+              I am tired of expat blogs that say "you can live here for $1,000 a month!" without explaining what that actually looks like. Here is what I actually spend — and what you can realistically expect.
+            </p>
+            <div style="display:flex;align-items:center;justify-content:space-between;margin-top:16px;">
+              <span class="blog-card__meta">Coleen Huie Garcia · April 2026 · 8 min read</span>
+              <a href="blog/how-much-does-it-really-cost-to-live-in-the-dominican-republic.html" class="btn btn-primary btn-sm">Read More →</a>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Post 2 -->
+      <article class="blog-card fade-in" aria-labelledby="post2-title">
+        <div class="blog-card__img">🏥</div>
+        <div class="blog-card__body">
+          <span class="blog-card__cat">Nurse Burnout</span>
+          <a href="blog/signs-you-are-experiencing-nurse-burnout-not-just-a-bad-week.html" class="blog-card__title" id="post2-title">
+            7 Signs You Are Experiencing Real Nurse Burnout — Not Just a Bad Week
+          </a>
+          <p class="blog-card__excerpt">Burnout does not announce itself. It creeps in slowly and disguises itself as normal. Here is how to tell the difference — and what to do about it.</p>
+          <div class="blog-card__meta">Coleen Huie Garcia · March 2026 · 6 min read</div>
+        </div>
+      </article>
+
+      <!-- Post 3 -->
+      <article class="blog-card fade-in" aria-labelledby="post3-title">
+        <div class="blog-card__img">✈️</div>
+        <div class="blog-card__body">
+          <span class="blog-card__cat">Sabbaticals</span>
+          <a href="blog/how-to-take-a-nursing-sabbatical-without-losing-your-job.html" class="blog-card__title" id="post3-title">
+            How to Take a Nursing Sabbatical Without Losing Your Job or Your Mind
+          </a>
+          <p class="blog-card__excerpt">Yes, you can take an extended leave as a nurse. Here is exactly how to navigate the conversation with your employer — and what to do if they say no.</p>
+          <div class="blog-card__meta">Coleen Huie Garcia · March 2026 · 7 min read</div>
+        </div>
+      </article>
+
+      <!-- Post 4 -->
+      <article class="blog-card fade-in" aria-labelledby="post4-title">
+        <div class="blog-card__img">🏡</div>
+        <div class="blog-card__body">
+          <span class="blog-card__cat">Relocation</span>
+          <a href="blog/best-neighborhoods-in-dominican-republic-for-american-expats.html" class="blog-card__title" id="post4-title">
+            The Best Neighborhoods in the Dominican Republic for American Expats (2026 Guide)
+          </a>
+          <p class="blog-card__excerpt">Not all of the DR is the same. Here are the neighborhoods I personally recommend — and the ones to avoid — based on your lifestyle and budget.</p>
+          <div class="blog-card__meta">Coleen Huie Garcia · February 2026 · 9 min read</div>
+        </div>
+      </article>
+
+      <!-- Post 5 -->
+      <article class="blog-card fade-in" aria-labelledby="post5-title">
+        <div class="blog-card__img">⚕️</div>
+        <div class="blog-card__body">
+          <span class="blog-card__cat">DR Life</span>
+          <a href="blog/healthcare-in-the-dominican-republic-what-expats-need-to-know.html" class="blog-card__title" id="post5-title">
+            Healthcare in the Dominican Republic: What Every American Expat Needs to Know
+          </a>
+          <p class="blog-card__excerpt">As a nurse, this was my biggest concern before I moved. Here is the honest truth about what healthcare access looks like for expats in the DR.</p>
+          <div class="blog-card__meta">Coleen Huie Garcia · February 2026 · 8 min read</div>
+        </div>
+      </article>
+
+      <!-- Post 6 -->
+      <article class="blog-card fade-in" aria-labelledby="post6-title">
+        <div class="blog-card__img">💰</div>
+        <div class="blog-card__body">
+          <span class="blog-card__cat">Retirement Abroad</span>
+          <a href="blog/can-you-collect-social-security-while-living-in-the-dominican-republic.html" class="blog-card__title" id="post6-title">
+            Can You Collect Social Security While Living in the Dominican Republic?
+          </a>
+          <p class="blog-card__excerpt">This is the question I get asked most. The short answer is yes — but the details matter. Ricardo and I break it down clearly so you can plan with confidence.</p>
+          <div class="blog-card__meta">Coleen Huie Garcia · January 2026 · 5 min read</div>
+        </div>
+      </article>
+
+      <!-- Post 7 -->
+      <article class="blog-card fade-in" aria-labelledby="post7-title">
+        <div class="blog-card__img">🗣️</div>
+        <div class="blog-card__body">
+          <span class="blog-card__cat">DR Life</span>
+          <a href="blog/do-you-need-to-speak-spanish-to-live-in-the-dominican-republic.html" class="blog-card__title" id="post7-title">
+            Do You Really Need to Speak Spanish to Live in the Dominican Republic?
+          </a>
+          <p class="blog-card__excerpt">Honest answer: no, but also yes — depending on where you live and what you want your life to look like. Here is my take after years of living here.</p>
+          <div class="blog-card__meta">Coleen Huie Garcia · January 2026 · 5 min read</div>
+        </div>
+      </article>
+
+      <!-- Post 8 -->
+      <article class="blog-card fade-in" aria-labelledby="post8-title">
+        <div class="blog-card__img">📋</div>
+        <div class="blog-card__body">
+          <span class="blog-card__cat">Sabbaticals</span>
+          <a href="blog/dr-sabbatical-checklist-what-to-do-before-you-go.html" class="blog-card__title" id="post8-title">
+            The Complete DR Sabbatical Checklist: What to Do in the 60 Days Before You Go
+          </a>
+          <p class="blog-card__excerpt">From pausing your mail to setting up international banking — here is everything on my checklist that I wish I had when I first planned my extended stay.</p>
+          <div class="blog-card__meta">Coleen Huie Garcia · December 2025 · 7 min read</div>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- Load More -->
+    <div style="text-align:center;margin-top:48px;">
+      <button class="btn btn-secondary" onclick="this.textContent='More posts coming soon!'">Load More Posts</button>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER SIGNUP -->
+<section class="section optin" aria-labelledby="blog-newsletter-title">
+  <div class="container">
+    <div class="optin__inner">
+      <div>
+        <span style="display:inline-block;background:var(--primary);color:#1A1A1A;font-size:.78rem;
+          font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:5px 14px;
+          border-radius:50px;margin-bottom:16px;">Free Newsletter</span>
+        <h2 class="optin__title" id="blog-newsletter-title">Get Real DR Updates in Your Inbox</h2>
+        <div style="width:60px;height:4px;background:var(--primary);border-radius:2px;margin-bottom:24px;"></div>
+        <p class="optin__sub">
+          No fluff. No sponsored content. Just honest updates about life in the Dominican Republic,
+          practical tips for healthcare workers planning their escape, and the occasional real talk
+          that you will not find anywhere else.
+        </p>
+        <ul class="optin__bullets">
+          <li>New blog posts every week</li>
+          <li>Community updates and member stories</li>
+          <li>DR news that actually affects expats</li>
+          <li>Exclusive tips for subscribers only</li>
+        </ul>
+      </div>
+      <div class="optin__form">
+        <h3>Subscribe — It Is Free</h3>
+        <p>Join hundreds of healthcare workers already on the list.</p>
+        <form class="js-form" novalidate>
+          <div class="form-group">
+            <label for="blog-name">First Name</label>
+            <input type="text" id="blog-name" name="name" placeholder="Your first name"/>
+          </div>
+          <div class="form-group">
+            <label for="blog-email">Email Address *</label>
+            <input type="email" id="blog-email" name="email" placeholder="your@email.com" required/>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" style="margin-top:8px;">
+            Yes, Subscribe Me →
+          </button>
+          <p class="form-note">No spam. One email per week max. Unsubscribe anytime.</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <div class="footer__logo">Burnout to Bliss Abroad</div>
+        <p class="footer__tagline">Helping burned-out healthcare workers escape to the Dominican Republic — one nurse at a time.</p>
+      </div>
+      <div class="footer__col"><h4>Explore</h4><ul>
+        <li><a href="index.html">Home</a></li><li><a href="about.html">My Story</a></li>
+        <li><a href="work-with-me.html">Work With Me</a></li><li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul></div>
+      <div class="footer__col"><h4>Resources</h4><ul>
+        <li><a href="index.html#free-guide">Free DR Guide</a></li>
+        <li><a href="https://www.youtube.com/@BurnoutToBlissAbroad" target="_blank" rel="noopener">YouTube Channel</a></li>
+          <li><a href="https://www.skool.com/burnout-to-bliss-abroad-4840" target="_blank" rel="noopener">Free Community</a></li>
+        <li><a href="work-with-me.html#courses">Courses</a></li>
+      </ul></div>
+      <div class="footer__col"><h4>Work Together</h4><ul>
+        <li><a href="contact.html#book">Discovery Call</a></li>
+        <li><a href="work-with-me.html#dfy">Done-For-You</a></li>
+        <li><a href="contact.html">Get in Touch</a></li>
+      </ul></div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 Burnout to Bliss Abroad | Coleen Huie Garcia, RN.</p>
+      <div style="display:flex;gap:20px;"><a href="#">Privacy</a><a href="#">Terms</a><a href="disclaimer.html">Disclaimer</a></div>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "testimonials": [
+    {
+      "name": "Coming Soon",
+      "role": "Registered Nurse",
+      "location": "Texas",
+      "quote": "Real client testimonials will be added here soon.",
+      "photo": ""
+    },
+    {
+      "name": "Coming Soon",
+      "role": "Healthcare Professional",
+      "location": "California",
+      "quote": "Real client testimonials will be added here soon.",
+      "photo": ""
+    },
+    {
+      "name": "Coming Soon",
+      "role": "Travel Nurse",
+      "location": "New York",
+      "quote": "Real client testimonials will be added here soon.",
+      "photo": ""
+    }
+  ]
+}

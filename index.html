@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-cms-page="home">
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -51,12 +51,12 @@
     <div class="hero__inner">
       <div class="hero__text">
         <span class="hero__label">For Burned-Out Nurses &amp; Healthcare Workers</span>
-        <h1 class="hero__title" id="hero-title">
+        <h1 class="hero__title" id="hero-title" data-cms="hero_headline">
           You Have Spent Decades<br>
           Taking Care of Everyone Else.<br>
           <span>Who Is Taking Care of You?</span>
         </h1>
-        <p class="hero__sub">
+        <p class="hero__sub" data-cms="hero_subheadline">
           I am Coleen — a 30-year RN who traded burnout for bliss in the Dominican Republic.
           I help healthcare workers like you take sabbaticals, plan dream escapes,
           or make the permanent move — without the overwhelm.
@@ -69,7 +69,7 @@
           <div class="hero__trust-avatars">
             <span>MK</span><span>JR</span><span>SL</span><span>+</span>
           </div>
-          <p><strong>500+ healthcare workers</strong> already planning their escape</p>
+          <p><strong data-cms="stat_1_number">500+</strong> <span data-cms="stat_1_label">healthcare workers already planning their escape</span></p>
         </div>
       </div>
       <div class="hero__image">
@@ -206,7 +206,7 @@
       </div>
       <!-- DONE FOR YOU -->
       <div class="offer-card">
-        <div class="offer-card__header offer-card__header--dfy">
+        <div class="offer-card__header offer-card__header--dfy" data-cms="dfy_price_section">
           <span class="offer-card__tag">Full Service</span>
           <div class="offer-card__name">Done-For-You Package</div>
           <div class="offer-card__price">$3,997</div>
@@ -306,7 +306,7 @@
       <h2 class="section-title" id="testi-title">Healthcare Workers Who Made the Move</h2>
       <div class="divider divider--center"></div>
     </div>
-    <div class="testimonials__grid">
+    <div class="testimonials__grid" data-cms-testimonials>
       <div class="testi-card fade-in">
         <div class="testi-card__stars">★★★★★</div>
         <p class="testi-card__text">
@@ -407,7 +407,7 @@
     <span class="section-label">Common Questions</span>
     <h2 class="section-title" id="faq-title">You Have Questions. I Have Answers.</h2>
     <div class="divider divider--center"></div>
-    <div class="faq-list" role="list">
+    <div class="faq-list" role="list" data-cms-faq>
 
       <div class="faq-item" role="listitem">
         <div class="faq-q" role="button" tabindex="0" aria-expanded="false">
@@ -516,7 +516,7 @@
     <div class="footer__grid">
       <div class="footer__brand">
         <div class="footer__logo">Burnout to Bliss Abroad</div>
-        <p class="footer__tagline">Helping burned-out healthcare workers escape to the Dominican Republic — one nurse at a time.</p>
+        <p class="footer__tagline" data-cms="footer_tagline">Helping burned-out healthcare workers escape to the Dominican Republic — one nurse at a time.</p>
         <div class="footer__social">
           <a href="https://www.youtube.com/@BurnoutToBlissAbroad" target="_blank" rel="noopener" aria-label="YouTube" style="font-size:1.3rem;">▶</a>
           <a href="https://www.instagram.com/burnouttoblissabroad/" target="_blank" rel="noopener" aria-label="Instagram" style="font-size:1.3rem;">📷</a>
@@ -564,5 +564,6 @@
 </footer>
 
 <script src="js/main.js"></script>
+  <script src="/js/content-loader.js"></script>
 </body>
 </html>

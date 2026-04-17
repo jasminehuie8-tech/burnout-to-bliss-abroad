@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: jasminehuie8-tech/burnout-to-bliss-abroad
+  name: git-gateway
   branch: main
 
 media_folder: "images"
